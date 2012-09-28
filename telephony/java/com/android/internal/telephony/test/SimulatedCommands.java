@@ -1141,7 +1141,9 @@ public final class SimulatedCommands extends BaseCommands
     public void exitEmergencyCallbackMode(Message result) {unimplemented(result);}
     public void setNetworkSelectionModeManual(
             String operatorNumeric, Message result) {unimplemented(result);}
-
+    public void setNetworkSelectionModeManual(
+            String operatorNumeric, String operatorRAT, Message result) {unimplemented(result);}
+            
     /**
      * Queries whether the current network selection mode is automatic
      * or manual
