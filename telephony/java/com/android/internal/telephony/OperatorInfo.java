@@ -55,7 +55,7 @@ public class OperatorInfo implements Parcelable {
     
     public String
     getOperatorRAT() {
-        return operatorRAT;
+        return this.operatorRAT;
     }    
 
     public State
