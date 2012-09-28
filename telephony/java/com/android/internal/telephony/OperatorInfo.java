@@ -33,6 +33,7 @@ public class OperatorInfo implements Parcelable {
     private String operatorAlphaLong;
     private String operatorAlphaShort;
     private String operatorNumeric;
+    private String operatorRAT;
 
     private State state = State.UNKNOWN;
 
